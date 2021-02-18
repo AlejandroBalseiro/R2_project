@@ -1,7 +1,7 @@
 # miscellaneous_main
 
 # directory set up
-directory <- "R2_project/R/main"
+directory <- "R2_project/R"
 
 setwd(directory)
 
