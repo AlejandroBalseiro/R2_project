@@ -1,5 +1,5 @@
 #' @title to_ML
-#' @description This function is called by skeleton and it hooks the df onto 
+#' @description This function is called by main and it hooks the df onto 
 #' a machine learning model
 #' 
 #' @param data DataFrame with reshape data from all datasets
@@ -9,9 +9,7 @@
 #' @import logging
 #' 
 to_ML <- function(df_1, config){
-  # skeleton
-  # df_1 <- read_data(config, path)
-  # config <- read_config(path)
+
   
   library(caret)
   library(logging)
