@@ -1,9 +1,13 @@
 # miscellaneous_main
 
 # directory set up
-directory <- "R2_project/R"
+ 
 
-setwd(directory)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+directory <- setwd("..")
+
+print(directory)
 
 lapply(paste0("R/", list.files(path = "R/", recursive = TRUE)), source)
 
