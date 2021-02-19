@@ -1,0 +1,9 @@
+Package: Rproject
+Title: Liver cancer female
+Version: 0.1
+Authors: Javier Gil, Andreea, AlexB, Mar
+Description: This package helps predict the percentage of new cases of female liver cancer in each specific country based on the percentage of breast cancer and cervical cancer. 
+Depends: R (>= 3.1.0)
+License: No license
+LazyData: true
+RoxygenNote: 7.1.1
