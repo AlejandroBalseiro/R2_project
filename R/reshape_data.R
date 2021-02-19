@@ -10,6 +10,13 @@
 #' @import logging
 #' 
 reshape_data <- function(config, lista_datas){
+<<<<<<< HEAD
+=======
+  #Read Data
+  #lista_datas <- list(predictoras = lista_df, target = target)
+  # skeleton
+  #config <- read_config(path)
+>>>>>>> Andreea
   
   
   for (i in 1:length(lista_datas$predictoras)){

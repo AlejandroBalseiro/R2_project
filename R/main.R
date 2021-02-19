@@ -1,3 +1,4 @@
+
 #' @title main
 #' @description Main package function
 #' 
@@ -6,7 +7,7 @@
 #' @export
 #' @import logging
 #'
-#' @author Javi Gil, Mar, Andreea, Alex
+#' @author Mar, Andreea, Javi, Alex
 #' 
 main <- function (path){
   tryCatch(expr = {
@@ -14,41 +15,41 @@ main <- function (path){
     library(logging)
     
     addHandler(writeToFile, logger = 'log', file = paste0(path, "/log/logfile.log"))
-    loginfo("Starting program", logger = 'log')
+    loginfo("Inicio programa", logger = 'log')
     
-    #Config
-    loginfo("Reading config...", logger = 'log')
+    #Lectura del config
+    loginfo("Leyendo config", logger = 'log')
     config <- read_config(path)
-    loginfo("Config readed", logger = 'log')
+    loginfo("Config leido", logger = 'log')
     
-    #data
-    loginfo("Reading data...", logger = 'log')
+    #Lectura de datos
+    loginfo("Leyendo datos", logger = 'log')
     df_1 <- read_data(config, path)
-    loginfo("Data readed", logger = 'log')
+    loginfo("Datos leidos", logger = 'log')
     
-    #Data Cleaning and data wrangling
-    loginfo("Data cleaning and data wrangling process: ON", logger = 'log')
+    #Reestructuración y limpieza de los datos
+    loginfo("Reconvirtiendo los datos", logger = 'log')
     df_1 <- reshape_data(config, df_1)
-    loginfo("Data cleaning and data wrangling process: Finished", logger = 'log')
+    loginfo("Datos reconvertidos", logger = 'log')
     
-    #Machine Learning process
-    loginfo("Loading Machine learning process...", logger = 'log')
+    #Carga de modelo de ML
+    loginfo("Cargando en modelo de ML", logger = 'log')
     output <- to_ML(df_1, config)
-    loginfo("Machine Learning model generated", logger = 'log')
+    loginfo("Modelo de ML generado", logger = 'log')
     
-    #Output
-    loginfo("Output generation...", logger = 'log')
+    #Generar output
+    loginfo("Generar output", logger = 'log')
     createOutput(output, config, path)
-    loginfo("Output generated", logger = 'log')
+    loginfo("Output generado", logger = 'log')
     
   }, error = function(e){
     
-    logerror("ERROR", logger = 'log')
+    logerror("ERROR, ERROR, ERROR", logger = 'log')
     stop()
     
   }, finally = {
     
-    loginfo("Program finished.", logger = 'log')
+    loginfo("Fin de la ejecucion.", logger = 'log')
     removeHandler(writeToFile, logger = 'log')
     
   })

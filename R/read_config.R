@@ -10,14 +10,16 @@
 #' @import XML
 #' @import logging
 #'
-install.packages("XML")
-install.packages("logging")
+#install.packages("XML")
+#install.packages("logging")
+path <- directory
+
 library(logging)
 read_config <- function (path){
 
   library(XML)
 
-  configPath <- paste0(path, "config/config.xml")
+  configPath <- paste0(path, "/config/config.xml")
   
   
   tryCatch(expr = {

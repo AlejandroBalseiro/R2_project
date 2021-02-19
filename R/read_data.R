@@ -8,7 +8,11 @@
 #' 
 #' @import data.table
 #' @import logging
+<<<<<<< HEAD
 #'
+=======
+#' 
+>>>>>>> Andreea
 read_data <- function(config, path){
   
   lista_df <- list()
@@ -16,7 +20,11 @@ read_data <- function(config, path){
   for (i in config$data$predictors){
     
     tryCatch(expr = {
+<<<<<<< HEAD
       pathDatos <- paste0(path, 'data/', i)
+=======
+      pathDatos <- paste0(path, '/data/', i)
+>>>>>>> Andreea
       datos <- data.table::fread(pathDatos, sep = config$sep,
                                  encoding = 'UTF-8', data.table = FALSE, header = T)
       
@@ -63,12 +71,20 @@ read_data <- function(config, path){
 #' 
 read_target <- function(config, path){
   
+<<<<<<< HEAD
   pathTarget <- paste0(path, "data/", config$data$target)
+=======
+  pathTarget <- paste0(path, "/data/", config$data$target)
+>>>>>>> Andreea
   
   tryCatch(expr = {
     
     target <- data.table::fread(pathTarget, sep = config$sep,
+<<<<<<< HEAD
                                encoding = 'UTF-8', data.table = FALSE, header = T)
+=======
+                                encoding = 'UTF-8', data.table = FALSE, header = T)
+>>>>>>> Andreea
     
     
   }, error = function(e){
