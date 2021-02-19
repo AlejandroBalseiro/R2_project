@@ -10,9 +10,10 @@
 #'
 #' @return
 #' 
+
 createOutput <-  function(output, config, path){
   
-  nameOutput <- paste0(path, "output/women_killed.csv")
+  nameOutput <- paste0(path, "/output/Australia2005.csv")
   
   tryCatch(expr = {
     

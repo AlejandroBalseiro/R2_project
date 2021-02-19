@@ -44,7 +44,7 @@ main <- function (path){
     
   }, error = function(e){
     
-    logerror("ERROR, ERROR, ERROR", logger = 'log')
+    logerror("ERROR", logger = 'log')
     stop()
     
   }, finally = {

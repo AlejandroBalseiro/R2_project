@@ -89,3 +89,4 @@ read_target <- function(config, path){
   return(target)
   
 }
+read_data(x,path)

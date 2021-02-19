@@ -88,7 +88,7 @@ read_config <- function (path){
       config$testRate <- as.numeric(config$testRate)
   } 
   
-  minorOne <- config$testRate < 1
+  minorUno <- config$testRate < 1
   mayorZero <- config$testRate > 0
   
   if(!(minorUno && mayorZero)){
@@ -130,7 +130,7 @@ read_config <- function (path){
  
 validateConfigNodes <- function(config){
   
-  nodoPrincipal <- identical(names(config), c("sep", "data", "outputFile"))
+  nodoPrincipal <- identical(names(config), c("sep", "data", "testRate","outputFile"))
   nodoData <- identical(names(config$data), c("predictors", "target", "prediction"))
   nodoPrediction <- identical(names(config$data$prediction), c("country", "year"))
 
@@ -151,3 +151,5 @@ validateConfigNodes <- function(config){
   
 }
 
+x=read_config(path)
+print(x)
