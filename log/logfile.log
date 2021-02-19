@@ -1,0 +1,116 @@
+
+2021-02-19 09:57:32 INFO:log:Inicio programa
+2021-02-19 09:57:32 INFO:log:Leyendo config
+2021-02-19 09:57:33 ERROR:log:Config was not find on the path. Check if it´s call config.xml
+2021-02-19 09:57:33 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 09:57:33 INFO:log:Fin de la ejecucion.
+2021-02-19 10:00:12 INFO:log:Inicio programa
+2021-02-19 10:00:12 INFO:log:Leyendo config
+2021-02-19 10:00:12 INFO:log:Config readed.
+2021-02-19 10:00:12 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:00:12 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:00:12 INFO:log:Fin de la ejecucion.
+2021-02-19 10:01:28 INFO:log:Inicio programa
+2021-02-19 10:01:28 INFO:log:Leyendo config
+2021-02-19 10:01:29 INFO:log:Config readed.
+2021-02-19 10:01:29 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:01:29 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:01:29 INFO:log:Fin de la ejecucion.
+2021-02-19 10:07:34 INFO:log:Inicio programa
+2021-02-19 10:07:34 INFO:log:Leyendo config
+2021-02-19 10:07:34 INFO:log:Config readed.
+2021-02-19 10:07:34 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:07:34 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:07:34 INFO:log:Fin de la ejecucion.
+2021-02-19 10:12:31 INFO:log:Inicio programa
+2021-02-19 10:12:31 INFO:log:Leyendo config
+2021-02-19 10:12:31 INFO:log:Config readed.
+2021-02-19 10:12:31 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:12:31 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:12:31 INFO:log:Fin de la ejecucion.
+2021-02-19 10:19:08 INFO:log:Inicio programa
+2021-02-19 10:19:08 INFO:log:Leyendo config
+2021-02-19 10:19:09 INFO:log:Config readed.
+2021-02-19 10:19:09 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:19:09 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:19:09 INFO:log:Fin de la ejecucion.
+2021-02-19 10:21:31 INFO:log:Inicio programa
+2021-02-19 10:21:31 INFO:log:Leyendo config
+2021-02-19 10:21:31 INFO:log:Config readed.
+2021-02-19 10:21:31 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:21:31 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:21:31 INFO:log:Fin de la ejecucion.
+2021-02-19 10:25:58 INFO:log:Inicio programa
+2021-02-19 10:25:58 INFO:log:Leyendo config
+2021-02-19 10:25:58 INFO:log:Config readed.
+2021-02-19 10:25:58 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:25:58 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:25:58 INFO:log:Fin de la ejecucion.
+2021-02-19 10:31:48 INFO:log:Inicio programa
+2021-02-19 10:31:48 INFO:log:Leyendo config
+2021-02-19 10:31:48 INFO:log:Config readed.
+2021-02-19 10:31:48 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:31:48 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:31:48 INFO:log:Fin de la ejecucion.
+2021-02-19 10:44:29 INFO:log:Inicio programa
+2021-02-19 10:44:29 INFO:log:Leyendo config
+2021-02-19 10:44:29 INFO:log:Config readed.
+2021-02-19 10:44:29 ERROR:log:The nodes: nodoPrincipal are poorly structured
+2021-02-19 10:44:29 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:44:29 INFO:log:Fin de la ejecucion.
+2021-02-19 10:47:05 INFO:log:Inicio programa
+2021-02-19 10:47:05 INFO:log:Leyendo config
+2021-02-19 10:47:05 INFO:log:Config readed.
+2021-02-19 10:47:05 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 10:47:05 INFO:log:Fin de la ejecucion.
+2021-02-19 10:47:44 INFO:log:Inicio programa
+2021-02-19 10:47:44 INFO:log:Leyendo config
+2021-02-19 10:47:44 INFO:log:Config readed.
+2021-02-19 10:47:44 ERROR:log:ERROR
+2021-02-19 10:47:44 INFO:log:Fin de la ejecucion.
+2021-02-19 10:48:30 INFO:log:Inicio programa
+2021-02-19 10:48:30 INFO:log:Leyendo config
+2021-02-19 10:48:30 INFO:log:Config readed.
+2021-02-19 10:48:30 ERROR:log:ERROR
+2021-02-19 10:48:30 INFO:log:Fin de la ejecucion.
+2021-02-19 10:49:33 INFO:log:Inicio programa
+2021-02-19 10:49:33 INFO:log:Leyendo config
+2021-02-19 10:49:33 INFO:log:Config readed.
+2021-02-19 10:49:33 ERROR:log:ERROR
+2021-02-19 10:49:33 INFO:log:Fin de la ejecucion.
+2021-02-19 10:50:44 INFO:log:Inicio programa
+2021-02-19 10:50:44 INFO:log:Leyendo config
+2021-02-19 10:50:44 INFO:log:Config readed.
+2021-02-19 10:50:44 ERROR:log:ERROR
+2021-02-19 10:50:44 INFO:log:Fin de la ejecucion.
+2021-02-19 10:56:30 INFO:log:Inicio programa
+2021-02-19 10:56:30 INFO:log:Leyendo config
+2021-02-19 10:56:30 INFO:log:Config readed.
+2021-02-19 10:56:31 ERROR:log:ERROR
+2021-02-19 10:56:31 INFO:log:Fin de la ejecucion.
+2021-02-19 10:57:23 INFO:log:Inicio programa
+2021-02-19 10:57:23 INFO:log:Leyendo config
+2021-02-19 10:57:23 INFO:log:Config readed.
+2021-02-19 10:57:23 ERROR:log:ERROR
+2021-02-19 10:57:23 INFO:log:Fin de la ejecucion.
+2021-02-19 11:00:29 INFO:log:Inicio programa
+2021-02-19 11:00:29 INFO:log:Leyendo config
+2021-02-19 11:00:29 INFO:log:Config readed.
+2021-02-19 11:00:29 ERROR:log:ERROR
+2021-02-19 11:00:29 INFO:log:Fin de la ejecucion.
+2021-02-19 11:09:15 INFO:log:Inicio programa
+2021-02-19 11:09:15 INFO:log:Leyendo config
+2021-02-19 11:09:15 INFO:log:Config readed.
+2021-02-19 11:09:15 INFO:log:Config leido
+2021-02-19 11:09:15 INFO:log:Leyendo datos
+2021-02-19 11:09:15 INFO:log:hola
+2021-02-19 11:09:16 INFO:log:Datos leidos
+2021-02-19 11:09:16 INFO:log:Reconvirtiendo los datos
+2021-02-19 11:09:16 INFO:log:Datos reconvertidos
+2021-02-19 11:09:16 INFO:log:Cargando en modelo de ML
+2021-02-19 11:09:22 INFO:log:Modelo de ML
+2021-02-19 11:09:22 INFO:log:Modelo de ML terminado
+2021-02-19 11:09:22 INFO:log:Modelo de ML generado
+2021-02-19 11:09:22 INFO:log:Generar output
+2021-02-19 11:09:22 INFO:log:Output generado
+2021-02-19 11:09:22 INFO:log:Fin de la ejecucion.
