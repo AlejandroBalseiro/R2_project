@@ -3,7 +3,7 @@
     <data>
   
       <predictors>breast_cancer_number_of_new_female_cases.csv, cervical_cancer_number_of_new_female_cases.csv </predictors>
-      <target>killed_women.csv </target>
+      <target>liver_cancer_number_of_new_female_cases.csv </target>
      
     
       <prediction>
