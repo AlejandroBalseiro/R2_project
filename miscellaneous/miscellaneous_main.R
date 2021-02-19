@@ -3,10 +3,10 @@
 # directory set up
 
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-directory <- setwd("..")
-
+#directory <- setwd("..")
+directory <- getwd()
 print(directory)
 
 lapply(paste0("R/", list.files(path = "R/", recursive = TRUE)), source)

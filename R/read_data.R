@@ -16,7 +16,7 @@ read_data <- function(config, path){
   for (i in config$data$predictors){
     
     tryCatch(expr = {
-      pathDatos <- paste0(path, 'data/', i)
+      pathDatos <- paste0(path, '/data/', i)
       datos <- data.table::fread(pathDatos, sep = config$sep,
                                  encoding = 'UTF-8', data.table = FALSE, header = T)
       
@@ -63,7 +63,7 @@ read_data <- function(config, path){
 #' 
 read_target <- function(config, path){
   
-  pathTarget <- paste0(path, "data/", config$data$target)
+  pathTarget <- paste0(path, "/data/", config$data$target)
   
   tryCatch(expr = {
     

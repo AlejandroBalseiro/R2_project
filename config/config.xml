@@ -1,17 +1,18 @@
 <config>
   <sep>,</sep>
-  <data>
+    <data>
   
-  <predictors>children_per_woman_total_fertility.csv, population_total.csv, gdp_total_yearly_growth.csv, long_term_unemployement_rate_percent.csv</predictors>
-  <target>killed_women.csv</target>
+      <predictors>breast_cancer_number_of_new_female_cases.csv, cervical_cancer_number_of_new_female_cases.csv </predictors>
+      <target>killed_women.csv </target>
+     
+    
+      <prediction>
+        <country>Australia</country>
+        <year>2005</year>
+      </prediction>
   
-  <prediction>
-  <country>Australia</country>
-  <year>2005</year>
-  </prediction>
+    </data>
   
-  </data>
-  
-  <testRate>0.2</testRate>
-  <outputFile>output</outputFile>
+    <testRate>0.2</testRate>
+    <outputFile>output</outputFile>
   </config>
